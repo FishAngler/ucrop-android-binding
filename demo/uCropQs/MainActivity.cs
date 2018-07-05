@@ -313,6 +313,8 @@ namespace uCropQs
 
             */
 
+            options.WithAspectRatio(4, 3);
+
             return uCrop.WithOptions(options);
         }
 
